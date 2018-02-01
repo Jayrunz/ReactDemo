@@ -26,6 +26,7 @@ module.exports = {//注意这里是exports不是export
         contentBase: './build',
         historyApiFallback: true,
         inline: true,
+        host: '0.0.0.0',
         port: 8080,
         stats: {colors: true},
     }
