@@ -19,6 +19,11 @@ module.exports = {//注意这里是exports不是export
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 loader: 'babel-loader'
+            },
+            {
+                test: /\.(jpg|png|gif|svg)$/i,
+                exclude: /node_modules/,
+                loader: 'url-loader'
             }
         ]
     },
