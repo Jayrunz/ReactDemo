@@ -27,7 +27,8 @@ module.exports = {//注意这里是exports不是export
         historyApiFallback: true,
         inline: true,
         host: '0.0.0.0',
-        port: 8080,
+        port: 80,
         stats: {colors: true},
+        disableHostCheck: true,
     }
 };
